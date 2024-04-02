@@ -1,0 +1,10 @@
+%syntax-version=1.0.0
+%project=convos
+%uri=https://gitlab.com/marcoarthur/convos-log
+
+schema 2024-01-30T15:59:50Z Marco Arthur <arthurpbs@gmail.com> # Add the schema for convos objects
+message_table 2024-01-30T22:40:27Z Marco Arthur <arthurpbs@gmail.com> # add the messages table
+message_count_day 2024-02-01T21:05:22Z Marco Arthur <arthurpbs@gmail.com> # function to count messages arrived in a given day
+fts_convos 2024-02-05T15:11:39Z Marco Arthur <arthurpbs@gmail.com> # full text search for convos db
+size_of_msg_new_col 2024-03-27T18:46:45Z Marco Arthur <arthurpbs@gmail.com> # This add a new column 'size'\n\nSize of the message (in bytes), so we have the byte's length of each message.
+url_function 2024-03-30T08:59:13Z Marco Arthur <arthurpbs@gmail.com> # Add database function to construct URL associated with message\n\nMake a function to construct a URL for convos location of the message.
